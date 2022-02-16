@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/landing_page_fragment.xml" value="0.11041666666666666" />
+        <entry key="app/src/main/res/layout/trivia_fragment.xml" value="0.1" />
       </map>
     </option>
   </component>

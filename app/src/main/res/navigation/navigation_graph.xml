@@ -9,5 +9,14 @@
         android:id="@+id/landingPageFragment"
         android:name="fragments.LandingPageFragment"
         android:label="landing_page_fragment"
-        tools:layout="@layout/landing_page_fragment" />
+        tools:layout="@layout/landing_page_fragment" >
+        <action
+            android:id="@+id/action_landingPageFragment_to_triviaFragment"
+            app:destination="@id/triviaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/triviaFragment"
+        android:name="fragments.TriviaFragment"
+        android:label="trivia_fragment"
+        tools:layout="@layout/trivia_fragment" />
 </navigation>
